@@ -1,4 +1,3 @@
-```markdown
 # 🔢 React Calculator
 
 A sleek and responsive calculator built with **React** and **Tailwind CSS**. Supports basic arithmetic operations, percentage calculation, clear and all-clear functionalities.
@@ -28,7 +27,6 @@ A sleek and responsive calculator built with **React** and **Tailwind CSS**. Sup
 
 ## 📂 Folder Structure
 
-```
 
 src/
 │
@@ -39,7 +37,7 @@ src/
 ├── index.js               # React root
 └── index.css              # Tailwind base styles
 
-````
+
 
 ## 📦 Installation
 
