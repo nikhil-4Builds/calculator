@@ -1,12 +1,86 @@
-# React + Vite
+```markdown
+# 🔢 React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive calculator built with **React** and **Tailwind CSS**. Supports basic arithmetic operations, percentage calculation, clear and all-clear functionalities.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Basic operations: `+`, `-`, `*`, `/`
+- Percentage calculation (`%`)
+- Clear last input (`C`)
+- All Clear (`AC`)
+- Handles invalid expressions gracefully with error display
+- Responsive and modern glassmorphism UI using Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🚀 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Live Demo](#) 
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/7b300ed5-e0f4-4f7b-a139-d0190182e5c0)
+
+
+## 🛠️ Tech Stack
+
+- **React** (Functional components + Hooks)
+- **Tailwind CSS** (Utility-first styling)
+
+## 📂 Folder Structure
+
+```
+
+src/
+│
+├── components/
+│   └── Calculator.jsx     # Main calculator component
+│
+├── App.jsx                # Renders Calculator
+├── index.js               # React root
+└── index.css              # Tailwind base styles
+
+````
+
+## 📦 Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/react-calculator.git
+cd react-calculator
+````
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm run dev
+```
+
+> ⚠️ This project uses **Vite**. If you haven't installed Vite before:
+>
+> ```bash
+> npm create vite@latest
+> ```
+
+## 🧠 Future Improvements
+
+* Keyboard support
+* Dark/Light mode toggle
+* Scientific calculator extension
+
+## 👤 Author
+
+* **Your Name**
+* GitHub: [@nikhil-4Builds](https://github.com/nikhil-4Builds/calculator/)
+
+## 📄 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+```
